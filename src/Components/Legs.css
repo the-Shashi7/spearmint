@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+.container{
+    border-radius: 10px;
+    display: inline;
+    position: relative;
+}
+.container form{
+    background-color: rgb(223, 225, 225);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bottom input{
+    height: 15px;
+    width: 15px;
+    margin: 3px;
+    align-items: center;
+}
+
+.delete-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 17px;
+    background-color: azure;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.copy-icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top:0;
+}
